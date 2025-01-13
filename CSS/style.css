@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif !important;
+}
+
+.navbar-light {
+    background: linear-gradient(90deg, rgba(223, 10, 64, 1) 0%, rgba(5, 173, 53, 1) 100%);
+}
+
+.navbar-brand:hover {
+    color: rgba(5, 173, 53, 1)  !important;
+}
+
+.nav-link:hover {
+    color: blueviolet !important;
+}
+
+.btn-primary{
+    background: linear-gradient(90deg, rgba(24, 10, 223, 1) 0%, rgba(173, 5, 164, 1) 100%);
+}
+
+.g-play{
+   height: 3rem;
+}
+.circles {
+    content: "";
+    width: 375px;
+    height: 375px;
+    background: linear-gradient(90deg, rgba(24, 10, 223, 1) 0%, rgba(173, 5, 164, 1) 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.phone1 {
+    max-width: 70%;
+}
+
+.circles::before {
+    content: "X";
+    position: absolute;
+    font-size: 24px;
+    color: blue !important;
+    bottom: 0;
+    left: 0;
+    transform: rotate(37deg);
+    font-weight: 700;
+}
+
+.circles::after {
+    content: " ● ";
+    position: absolute;
+    color: rgb(211, 0, 183);
+    font-size: 24px;
+    right: 0;
+    top: 0;
+    transform: rotate(-30deg);
+}
+
+.section-1-bg {
+    background: linear-gradient(90deg, rgba(22, 10, 223, 1) 0%, rgba(173, 5, 171, 1) 100%);
+}
+
+.icon {
+    color: #8a2be2;
+}
+
+
+.circles2 {
+    content: "";
+    width: 275px;
+    height: 275px;
+    background: linear-gradient(90deg, rgba(24, 10, 223, 1) 0%, rgba(173, 5, 164, 1) 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.circles2::before {
+    content: " ● ";
+    position: absolute;
+    font-size: 24px;
+    color: blue !important;
+    bottom: 0;
+    left: 0;
+    transform: rotate(37deg);
+}
+
+.circles2::after {
+
+    content: "X";
+    position: absolute;
+    color: rgb(211, 0, 183);
+    font-size: 24px;
+    right: -50px;
+    top: 0;
+    transform: rotate(-30deg);
+    font-weight: 700;
+
+}
+
+
+
+@media (max-width:575px) {
+    .section3-circle {
+        max-width: 75% !important;
+    }
+
+    .circles {
+        background: white;
+    }
+
+    .circles::after {
+        content: "";
+    }
+
+    .circles::before {
+        content: "";
+    }
+
+    .circles2 {
+        background: white;
+
+    }
+
+    .circles2::before {
+        content: " ";
+
+    }
+
+    .circles2::after {
+
+        content: "";
+
+    }
+
+.phone-size{
+    display: flex;
+    justify-content: center;
+}
+
+.play-app{
+    display: flex;
+    justify-content: center;
+
+}
+
+.phone1 {
+    
+    max-width: 50%;
+}
+
+.phone2{
+    max-width: 50%;
+}
+
+}
+
+/* media query */
+
+@media (max-width:575px) {
+    .section3-circle {
+        max-width: 75% !important;
+    }
+
+    .circles {
+        background: white;
+    }
+
+    .circles::after {
+        content: "";
+    }
+
+    .circles::before {
+        content: "";
+    }
+
+    .circles2 {
+        background: white;
+
+    }
+
+    .circles2::before {
+        content: " ";
+
+    }
+
+    .circles2::after {
+
+        content: "";
+
+    }
+
+.phone-size{
+    display: flex;
+    justify-content: center;
+}
+
+.play-app{
+    display: flex;
+    justify-content: center;
+
+}
+
+.phone1 {
+    
+    max-width: 50%;
+}
+
+.phone2{
+    max-width: 50%;
+}
+
+}
+
+
+/* media query */
+
+@media (max-width:991px) {
+    .section3-circle {
+        max-width: 60% !important;
+    }
+
+    /* .circles {
+        background: white;
+    }
+
+    .circles::after {
+        content: "";
+    }
+
+    .circles::before {
+        content: "";
+    }
+
+    .circles2 {
+        background: white;
+
+    }
+
+    .circles2::before {
+        content: " ";
+
+    }
+
+    .circles2::after {
+
+        content: "";
+
+    } */
+
+.phone-size{
+    display: flex;
+    justify-content: center;
+}
+
+.play-app{
+    display: flex;
+    justify-content: center;
+
+}
+
+.phone1 {
+    
+    max-width: 60%;
+}
+
+.phone2{
+    max-width: 50%;
+}
+
+}
+
+
+
+.phone2{
+    max-width: 100%;
+    margin-left: 40px;
+}
+
+.section4-bg{
+background-image: url('/assets/img/software.jpg') ;
+}
+
+.text-download{
+    color: #a506ba;
+}
+
+.section5-bg {
+    background: linear-gradient(90deg, rgba(22, 10, 223, 1) 0%, rgba(173, 5, 171, 1) 100%);
+}
+
+.modal-header {
+    background: linear-gradient(90deg, rgb(102, 96, 228) 0%, rgba(212, 35, 210, 1) 82%);
+}
